@@ -4,7 +4,7 @@
 #
 Name     : R-svglite
 Version  : 2.1.1
-Release  : 8
+Release  : 9
 URL      : https://cran.r-project.org/src/contrib/svglite_2.1.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/svglite_2.1.1.tar.gz
 Summary  : An 'SVG' Graphics Device
@@ -18,9 +18,6 @@ BuildRequires : R-fontquiver
 BuildRequires : R-systemfonts
 BuildRequires : buildreq-R
 BuildRequires : libpng-dev
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 Graphics'. 'svglite' is a fork of the older 'RSvgDevice' package.
@@ -42,10 +39,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1673371814
+export SOURCE_DATE_EPOCH=1678830472
 
 %install
-export SOURCE_DATE_EPOCH=1673371814
+export SOURCE_DATE_EPOCH=1678830472
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
