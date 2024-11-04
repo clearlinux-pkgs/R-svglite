@@ -7,7 +7,7 @@
 #
 Name     : R-svglite
 Version  : 2.1.3
-Release  : 16
+Release  : 17
 URL      : https://cran.r-project.org/src/contrib/svglite_2.1.3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/svglite_2.1.3.tar.gz
 Summary  : An 'SVG' Graphics Device
